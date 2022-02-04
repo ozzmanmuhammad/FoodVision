@@ -34,10 +34,22 @@ some examples from the 101Food datasets:
 | Pretrained| on ImageNet |in ImageNet |
 | Fine-Tuned | Yes | Yes |
 | Fine-Tuned layers | last 5 | all |
-| Accuracy |~57%|~80%|
+| Accuracy |57.84%|80.%|
 | Training Time |~5m|~20m|
 
+<br/><br/>
 
+### Confusion Matrix (101-Food Classes, Exp #1)
+<img src="https://github.com/ozzmanmuhammad/FoodVision/blob/main/Images/Confusion_matrix_experiment1.png" alt="Confusion Matrix"  width="500"/>
 
+### F1-score across classes:
+<img src="https://github.com/ozzmanmuhammad/FoodVision/blob/main/Images/F1_score_101classes_experiment1.png" alt="Confusion Matrix" width="500"/>
 
+### Top few wrong predictions with high prediction probs:
+It is clearly visible that most wrong prediction with high pred probs are not generalizable with human brain also.
+<!-- ![alt text](https://github.com/ozzmanmuhammad/FoodVision/blob/main/Images/most_wrong_pred_experiment1.png "Top wrong predictions" ) -->
+<img src="https://github.com/ozzmanmuhammad/FoodVision/blob/main/Images/most_wrong_pred_experiment1.png" alt="Top wrong predictions" width="800"/>
 
+## Predictions on Custom Images
+The model predicts all the 10 images correct with high probability score. These images were collected from different sources.
+<img src="https://github.com/ozzmanmuhammad/FoodVision/blob/main/Images/predictions_custom_images.png" alt="Custom Predictions" width="700"/>
