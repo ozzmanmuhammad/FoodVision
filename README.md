@@ -1,5 +1,5 @@
 # FoodVision
-Deep learning project for the image classification starting from 10 classes to 101 food classes.
+Deep learning experiments for the image classification starting from 10 classes to 101 food classes.
 
 ## Overview
 For this project I built a food classifier to identify food from different food images. This project aim was to beat 77.4% top-1 accuracy of [DeepFood paper](https://arxiv.org/abs/1606.05675).
